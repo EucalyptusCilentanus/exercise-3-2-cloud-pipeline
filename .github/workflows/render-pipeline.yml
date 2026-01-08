@@ -30,7 +30,8 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/my_test_uni_1:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/ex_3_2_cloud_pipeline:latest
+
 
       - name: Trigger Render deploy (Render API)
         run: |

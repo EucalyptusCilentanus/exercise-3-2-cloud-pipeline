@@ -20,7 +20,7 @@ class Handler(BaseHTTPRequestHandler):
             return
 
         if path == "/":
-            self._send(200, "OK - Render pipeline active v2\n")
+            self._send(200, "OK - Render pipeline active v3\n")
             return
 
         self._send(404, "not found\n")

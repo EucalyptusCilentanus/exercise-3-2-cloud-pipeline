@@ -3,4 +3,5 @@
 On every push to `main`, GitHub Actions builds and pushes the Docker image to Docker Hub and then triggers a new deployment on Render.
 
 ## Deployed application
-https://my-test-uni-1-16-cloud-deployment.onrender.com/ping
+https://ex-3-2-cloud-pipeline.onrender.com/ping
+
